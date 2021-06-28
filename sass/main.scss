@@ -60,6 +60,9 @@ img {
     grid-column: 1 / span 2;
     grid-row: 1 / span 1;
     background-color: var(--color-moderate-violet);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right 100px top 0px;
     @include respond(phone) {
       grid-column: 1 / span 1;
       grid-row: 1 / span 1;
