@@ -29,6 +29,8 @@ img {
   .testimony__one {
     font-size: 1.5rem;
     font-weight: 600; }
+  .testimony__two {
+    opacity: 0.7; }
   .testimony--1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 1;
@@ -68,4 +70,5 @@ img {
   .profile__description {
     font-size: 1.0rem;
     margin: 0px;
-    align-self: start; }
+    align-self: start;
+    opacity: 0.5; }
