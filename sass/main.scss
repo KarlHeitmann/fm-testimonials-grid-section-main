@@ -1,0 +1,25 @@
+img {
+  display: block;
+}
+
+.testimonials {
+  display: grid;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+  &__avatar {
+    border-radius: 50%;
+    grid-row: 1 / -1;
+  }
+
+  &__name {
+    font-size: 1.5rem;
+  }
+
+  &__description {
+    font-size: 1.0rem;
+  }
+}
