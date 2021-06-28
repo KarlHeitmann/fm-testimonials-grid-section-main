@@ -2,7 +2,28 @@ img {
   display: block; }
 
 .testimonials {
-  display: grid; }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+.testimony--1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1; }
+
+.testimony--2 {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1; }
+
+.testimony--3 {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 2; }
+
+.testimony--4 {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1; }
+
+.testimony--5 {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1; }
 
 .profile {
   display: grid;
