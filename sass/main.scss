@@ -12,7 +12,9 @@ img {
 
   &__avatar {
     border-radius: 50%;
-    grid-row: 1 / -1;
+    grid-row: 1 / span 2;
+    justify-self: center;
+    align-self: center;
   }
 
   &__name {
